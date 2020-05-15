@@ -4,10 +4,10 @@
 
 namespace AlibabaCloud\SDK\Facebody\V20191230\Models;
 
-use AlibabaCloud\SDK\Facebody\V20191230\Models\FaceMakeupResponse\data;
+use AlibabaCloud\SDK\Facebody\V20191230\Models\SwapFacialFeaturesResponse\data;
 use AlibabaCloud\Tea\Model;
 
-class FaceMakeupResponse extends Model
+class SwapFacialFeaturesResponse extends Model
 {
     /**
      * @description requestId
@@ -45,7 +45,7 @@ class FaceMakeupResponse extends Model
     /**
      * @param array $map
      *
-     * @return FaceMakeupResponse
+     * @return SwapFacialFeaturesResponse
      */
     public static function fromMap($map = [])
     {
